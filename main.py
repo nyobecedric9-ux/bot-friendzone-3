@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Mets ton TOKEN ici
-TOKEN = "TON_TOKEN_ICI"
+TOKEN = "9185416588:AAE4soPCbsBQIR2t8B9iQKZkZ_uM7legcS4"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Salut ! Moi c'est FRIENDZONE 🤖\nEnvoie-moi /friendzone pour voir si tu es friendzoné 😂")
